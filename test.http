@@ -33,14 +33,7 @@ Content-Type: {{contentType}}
     "BookingTime" : "time"
 }
 ###
-GET http://127.0.0.1:5000/protected HTTP/1.1
-Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzQ5MTc5NjIsImlhdCI6MTYzNDkxNzY2MiwibmJmIjoxNjM0OTE3NjYyLCJpZGVudGl0eSI6MX0.8KBxaoQP81ASKlWKGRGqBQV_nqXMvHI8tjOpaatTqSI
 
-###
-
-GET http://192.168.0.102:3000/cool HTTP/1.1
-Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzQ5MTc5NjIsImlhdCI6MTYzNDkxNzY2MiwibmJmIjoxNjM0OTE3NjYyLCJpZGVudGl0eSI6MX0.8KBxaoQP81ASKlWKGRGqBQV_nqXMvHI8tjOpaatTqSI
-###
 GET http://127.0.0.1:5000/user/107138415950058303275862558108899313429/advisor/booking/ HTTP/1.1
 
 
